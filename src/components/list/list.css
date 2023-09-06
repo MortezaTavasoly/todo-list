@@ -1,0 +1,71 @@
+.list.dark {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  background-color: hsl(235, 24%, 19%);
+}
+
+.list.dark .item {
+  color: hsl(234, 11%, 52%);
+  border-bottom: 1px solid hsl(233, 14%, 35%);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+}
+.list.dark .item:hover {
+  color: hsl(236, 33%, 92%);
+}
+.list.dark .item.active {
+  color: hsl(233, 14%, 35%);
+  text-decoration: line-through;
+}
+.list.dark .item img {
+  background-image: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  height: 10px;
+  width: 10px;
+  padding: 4px;
+  margin: 10px 20px;
+  border-radius: 50%;
+}
+
+/*  light mode */
+.list.light {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  background-color: hsl(236, 33%, 92%);
+}
+
+.list.light .item .confirm {
+  cursor: pointer;
+  margin: 10px 20px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 94%);
+}
+.list.light .item .confirm:hover {
+  border: 1px solid hsl(234, 11%, 52%);
+}
+.list.light .item {
+  color: hsl(236, 13%, 48%);
+  border-bottom: 1px solid hsl(233, 11%, 84%);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+}
+.list.light .item:hover {
+  color: hsl(235, 24%, 27%);
+}
+.list.light .item.active {
+  color: hsl(231, 6%, 59%);
+  text-decoration: line-through;
+}
+.list.light .item img {
+  background-image: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  height: 10px;
+  width: 10px;
+  padding: 4px;
+  margin: 10px 20px;
+  border-radius: 50%;
+}
