@@ -63,7 +63,7 @@
   background-color: hsl(235, 27%, 92%);
   border: 0;
   outline: 0;
-  width: 440px;
+  width: 100%;
   padding: 20px;
 }
 .App form input {
@@ -73,7 +73,7 @@
   background-color: hsl(235, 24%, 19%);
   border: 0;
   outline: 0;
-  width: 440px;
+  width: 70%;
   padding: 20px;
 }
 .App form img {
