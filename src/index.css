@@ -7,6 +7,6 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-position: top;
-  background-size: contain;
+  background-size: auto;
   background-color: hsl(235, 21%, 11%);
 }
